@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'mySansRegular';
+    src: url("../../fonts/Sans-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'mySansMedium';
+    src: url("../../fonts/Sans-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'mySansBold';
+    src: url("../../fonts/Sans-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'mySansDemiBold';
+    src: url("../../fonts/Sans-DemiBold.ttf") format("truetype");
+}
+
+
+@theme{
+    --font-MySansBold :'mySansBold';
+    --font-MySansRegular :'mySansRegular';
+    --font-MySansMedium :'mySansMedium';
+    --font-MySansDemiBold :'mySansDemiBold';
+}
