@@ -18,9 +18,11 @@
 }
 
 
+
 @theme{
     --font-MySansBold :'mySansBold';
     --font-MySansRegular :'mySansRegular';
     --font-MySansMedium :'mySansMedium';
     --font-MySansDemiBold :'mySansDemiBold';
+    --color-myBgColor : #e7f5f7;
 }
