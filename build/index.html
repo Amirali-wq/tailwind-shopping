@@ -7,18 +7,18 @@
     <title>سایت فروشگاهی</title>
     <link rel="stylesheet" href="./css/output.css">
 </head>
-<body class="font-MySansRegular bg-myBgColor text-right">
+<body class="font-MySansMedium bg-myBgColor text-right">
 
-    <header class="bg-white text-black p-6 shadow-[0_4px_10px_rgba(0,0,0,0.09)] relative">
+    <header class="bg-white text-gray-700 p-6 shadow-[0_4px_10px_rgba(0,0,0,0.09)] relative">
         <div class="container mx-auto flex justify-between items-center px-4">
           <h1 class="text-2xl font-extrabold">فروشگاه آنلاین</h1>
 
           <nav class="hidden sm:flex space-x-2">
             <ul class="flex space-x-6">
-              <li><a href="#" class="text-lg hover:text-blue-600 transition duration-300">خانه</a></li>
-              <li><a href="#" class="text-lg hover:text-blue-600 transition duration-300">محصولات</a></li>
-              <li><a href="#" class="text-lg hover:text-blue-600 transition duration-300">درباره ما</a></li>
-              <li><a href="#" class="text-lg hover:text-blue-600 transition duration-300">تماس با ما</a></li>
+              <li><a href="#" class="text-gray-800 hover:text-blue-600 transition duration-300">خانه</a></li>
+              <li><a href="#" class="text-gray-800 hover:text-blue-600 transition duration-300">محصولات</a></li>
+              <li><a href="#" class="text-gray-800 hover:text-blue-600 transition duration-300">درباره ما</a></li>
+              <li><a href="#" class="text-gray-800 hover:text-blue-600 transition duration-300">تماس با ما</a></li>
             </ul>
           </nav>
       
@@ -42,10 +42,10 @@
           </button>
         </div>
         <nav class="p-4 space-y-4 text-lg">
-          <a href="#" class="block hover:text-blue-600">خانه</a>
-          <a href="#" class="block hover:text-blue-600">محصولات</a>
-          <a href="#" class="block hover:text-blue-600">درباره ما</a>
-          <a href="#" class="block hover:text-blue-600">تماس با ما</a>
+          <a href="#" class="block text-gray-800 hover:text-blue-600">خانه</a>
+          <a href="#" class="block text-gray-800 hover:text-blue-600">محصولات</a>
+          <a href="#" class="block text-gray-800 hover:text-blue-600">درباره ما</a>
+          <a href="#" class="block text-gray-800 hover:text-blue-600">تماس با ما</a>
         </nav>
       </div>
     
@@ -57,7 +57,7 @@
       
           <!-- راست -->
           <div class="w-full md:w-1/2 md:items-start md:order-0 order-1 flex flex-col justify-center items-center text-center">
-            <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 leading-snug">
+            <h2 class="text-2xl md:text-3xl font-extrabold text-gray-800 leading-snug">
               جدیدترین محصولات ما را بررسی کنید!
             </h2>
             <p class="mt-4 text-base md:text-lg text-gray-700 leading-relaxed">
@@ -81,9 +81,12 @@
       
       
     <main class="container mx-auto py-20 px-4">
-        <div class="text-center mb-12 ">
-            <h2 id="products" class="text-2xl font-extrabold text-gray-800">محصولات</h2>
-        </div>
+      <div class="flex items-center justify-center mb-12">
+        <div class="flex-grow border-t-[2px] border-gray-300 ml-5"></div>
+        <h2 id="products" class="text-2xl font-extrabold text-gray-800">محصولات</h2>
+        <div class="flex-grow border-t-[2px] border-gray-300 mr-5"></div>
+      </div>
+      
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
 
           <!-- محصولات -->
@@ -92,10 +95,10 @@
                 <img src="../img/laptop.webp" alt="محصول 1" class="w-full h-full object-cover max-h-[400px] sm:max-h-[450px] md:max-h-[500px] lg:max-h-[600px]">
             </div>
             <div class="p-4 mt-4">
-                <h3 class="text-xl font-semibold">محصول 1</h3>
-                <p class="text-gray-600">توضیحات محصول 1</p>
+                <h3 class="text-xl text-gray-800">محصول 1</h3>
+                <p class="text-gray-600 text-[0.9rem]">توضیحات محصول 1</p>
                 <div class="mt-4 flex justify-between items-center">
-                    <span class="text-xl font-bold">۵۰۰,۰۰۰ تومان</span>
+                    <span class="text-xl font-MySansMedium text-gray-800">۵۰۰,۰۰۰ تومان</span>
                     <a href="#" class="text-blue-600 hover:underline">خرید</a>
                 </div>
             </div>
@@ -106,10 +109,10 @@
               <img src="../img/laptop.webp" alt="محصول 2" class="w-full h-full object-cover max-h-[400px] sm:max-h-[450px] md:max-h-[500px] lg:max-h-[600px]">
           </div>
           <div class="p-4 mt-4">
-              <h3 class="text-xl font-semibold">محصول 2</h3>
-              <p class="text-gray-600">توضیحات محصول 2</p>
+              <h3 class="text-xl text-gray-800">محصول 2</h3>
+              <p class="text-gray-600 text-[0.9rem]">توضیحات محصول 2</p>
               <div class="mt-4 flex justify-between items-center">
-                  <span class="text-xl font-bold">۵۰۰,۰۰۰ تومان</span>
+                  <span class="text-xl text-gray-800">۵۰۰,۰۰۰ تومان</span>
                   <a href="#" class="text-blue-600 hover:underline">خرید</a>
               </div>
           </div>
@@ -120,13 +123,13 @@
             <img src="../img/laptop.webp" alt="محصول 3" class="w-full h-full object-cover max-h-[400px] sm:max-h-[450px] md:max-h-[500px] lg:max-h-[600px]">
         </div>
         <div class="p-4 mt-4">
-            <h3 class="text-xl font-semibold">محصول 3</h3>
-            <p class="text-gray-600">توضیحات محصول 3</p>
-            <div class="mt-4 flex justify-between items-center">
-                <span class="text-xl font-bold">۵۰۰,۰۰۰ تومان</span>
-                <a href="#" class="text-blue-600 hover:underline">خرید</a>
-            </div>
-        </div>
+          <h3 class="text-xl text-gray-800">محصول 3</h3>
+          <p class="text-gray-600 text-[0.9rem]">توضیحات محصول 3</p>
+          <div class="mt-4 flex justify-between items-center">
+              <span class="text-xl text-gray-800">۵۰۰,۰۰۰ تومان</span>
+              <a href="#" class="text-blue-600 hover:underline">خرید</a>
+          </div>
+      </div>
     </div>
 
     <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-95">
@@ -134,13 +137,13 @@
           <img src="../img/laptop.webp" alt="محصول 4" class="w-full h-full object-cover max-h-[400px] sm:max-h-[450px] md:max-h-[500px] lg:max-h-[600px]">
       </div>
       <div class="p-4 mt-4">
-          <h3 class="text-xl font-semibold">محصول 4</h3>
-          <p class="text-gray-600">توضیحات محصول 4</p>
-          <div class="mt-4 flex justify-between items-center">
-              <span class="text-xl font-bold">۵۰۰,۰۰۰ تومان</span>
-              <a href="#" class="text-blue-600 hover:underline">خرید</a>
-          </div>
-      </div>
+        <h3 class="text-xl text-gray-800">محصول 4</h3>
+        <p class="text-gray-600 text-[0.9rem]">توضیحات محصول 4</p>
+        <div class="mt-4 flex justify-between items-center">
+            <span class="text-xl text-gray-800">۵۰۰,۰۰۰ تومان</span>
+            <a href="#" class="text-blue-600 hover:underline">خرید</a>
+        </div>
+    </div>
   </div>
 
   <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-95">
@@ -148,13 +151,13 @@
         <img src="../img/laptop.webp" alt="محصول 5" class="w-full h-full object-cover max-h-[400px] sm:max-h-[450px] md:max-h-[500px] lg:max-h-[600px]">
     </div>
     <div class="p-4 mt-4">
-        <h3 class="text-xl font-semibold">محصول 5</h3>
-        <p class="text-gray-600">توضیحات محصول 5</p>
-        <div class="mt-4 flex justify-between items-center">
-            <span class="text-xl font-bold">۵۰۰,۰۰۰ تومان</span>
-            <a href="#" class="text-blue-600 hover:underline">خرید</a>
-        </div>
-    </div>
+      <h3 class="text-xl text-gray-800">محصول 5</h3>
+      <p class="text-gray-600 text-[0.9rem]">توضیحات محصول 5</p>
+      <div class="mt-4 flex justify-between items-center">
+          <span class="text-xl text-gray-800">۵۰۰,۰۰۰ تومان</span>
+          <a href="#" class="text-blue-600 hover:underline">خرید</a>
+      </div>
+  </div>
 </div>
 
 <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-95">
@@ -162,13 +165,13 @@
       <img src="../img/laptop.webp" alt="محصول 6" class="w-full h-full object-cover max-h-[400px] sm:max-h-[450px] md:max-h-[500px] lg:max-h-[600px]">
   </div>
   <div class="p-4 mt-4">
-      <h3 class="text-xl font-semibold">محصول 6</h3>
-      <p class="text-gray-600">توضیحات محصول 6</p>
-      <div class="mt-4 flex justify-between items-center">
-          <span class="text-xl font-bold">۵۰۰,۰۰۰ تومان</span>
-          <a href="#" class="text-blue-600 hover:underline">خرید</a>
-      </div>
-  </div>
+    <h3 class="text-xl text-gray-800">محصول 6</h3>
+    <p class="text-gray-600 text-[0.9rem]">توضیحات محصول 6</p>
+    <div class="mt-4 flex justify-between items-center">
+        <span class="text-xl text-gray-800">۵۰۰,۰۰۰ تومان</span>
+        <a href="#" class="text-blue-600 hover:underline">خرید</a>
+    </div>
+</div>
 </div>
 
 <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-95">
@@ -176,13 +179,13 @@
       <img src="../img/laptop.webp" alt="محصول 7" class="w-full h-full object-cover max-h-[400px] sm:max-h-[450px] md:max-h-[500px] lg:max-h-[600px]">
   </div>
   <div class="p-4 mt-4">
-      <h3 class="text-xl font-semibold">محصول 7</h3>
-      <p class="text-gray-600">توضیحات محصول 7</p>
-      <div class="mt-4 flex justify-between items-center">
-          <span class="text-xl font-bold">۵۰۰,۰۰۰ تومان</span>
-          <a href="#" class="text-blue-600 hover:underline">خرید</a>
-      </div>
-  </div>
+    <h3 class="text-xl text-gray-800">محصول 7</h3>
+    <p class="text-gray-600 text-[0.9rem]">توضیحات محصول 7</p>
+    <div class="mt-4 flex justify-between items-center">
+        <span class="text-xl text-gray-800">۵۰۰,۰۰۰ تومان</span>
+        <a href="#" class="text-blue-600 hover:underline">خرید</a>
+    </div>
+</div>
 </div>
 
 <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-95">
@@ -190,13 +193,13 @@
       <img src="../img/laptop.webp" alt="محصول 8" class="w-full h-full object-cover max-h-[400px] sm:max-h-[450px] md:max-h-[500px] lg:max-h-[600px]">
   </div>
   <div class="p-4 mt-4">
-      <h3 class="text-xl font-semibold">محصول 8</h3>
-      <p class="text-gray-600">توضیحات محصول 8</p>
-      <div class="mt-4 flex justify-between items-center">
-          <span class="text-xl font-bold">۵۰۰,۰۰۰ تومان</span>
-          <a href="#" class="text-blue-600 hover:underline">خرید</a>
-      </div>
-  </div>
+    <h3 class="text-xl text-gray-800">محصول 8</h3>
+    <p class="text-gray-600 text-[0.9rem]">توضیحات محصول 8</p>
+    <div class="mt-4 flex justify-between items-center">
+        <span class="text-xl text-gray-800">۵۰۰,۰۰۰ تومان</span>
+        <a href="#" class="text-blue-600 hover:underline">خرید</a>
+    </div>
+</div>
 </div>
 
         </div>
